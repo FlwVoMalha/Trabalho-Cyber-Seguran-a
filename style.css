@@ -13,8 +13,8 @@ body {
     background-color: #000;
     max-width: 1200px;
     margin: 0 auto;
-}
 
+}
 .loginbtt {
     background-color: #212020;
     width: 100px;
@@ -80,7 +80,7 @@ header .navegacao-primaria li a:hover::after {
     border-bottom: 4px solid #dc3545;
 }
 
-/* CV SECAO */
+/* DOWLOAD CV SECAO */
 
 .section-div {
     animation: inicializar .7s forwards;
@@ -313,7 +313,7 @@ main .sobre {
     }
 
     .section-div {
-        background-image: url(imgs/logo.png);
+        background-image: url(img/pessoa\ ilustrativa.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -368,6 +368,7 @@ main .sobre {
     padding: 60px;
     background-color: #151515;
 }
+
 
 .my_services {
     padding: 60px;
