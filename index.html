@@ -13,55 +13,48 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
+<!--ESCOPO-->
 <body>
-    <header>
-        <h1>Cyber <span>Company</span> Soluctions</h1><!--dev saber-->
-        <nav>
+    <header id="home">
+        <h1>Cyber <span>Company</span> Soluctions</h1>
             <ul aria-label="Navegação primária" class="navegacao-primaria">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#resume">Services</a></li>
-                <li><a href="#pricing">Community</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#community">Community</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <button class="loginbtt" id="loginButton"><a href="login/index.html">LOGIN</a></button>
 
-                
-                <!-- <ul aria-label="Navegação primária" class="navegacao-primaria">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#portfolio">Porfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>-->
             </ul>
             <i class="fa-solid fa-bars"></i>
         </nav>
 
     </header>
-    <section aria-label="seção curriculo dowload Leonardo" class="section-div">
+    <section aria-label="seção principal" class="section-div">
         <div>
-            <h2>Hi There! We are</h2><!--hi there! i'm-->
-            <h2 class="digitando">Cyber Security Consulting</h2> <!--Web Developer and UX/UI Design-->
+            <h2>Hi There! We are</h2>
+            <h2 class="digitando">Cyber Security Consulting</h2>
             <p>Cyber ​​Company Solutions is a cybersecurity consulting firm offering services to companies of
                 all sizes and industries. Our company is committed to protecting companies to protect 
                 their systems and data against cyber attacks.</p>
-            <!--<a href="#">Dowload CV</a>-->
         </div>
         <script src="script.js"></script>
-        <img src="imgs/pessoa ilustrativa.png" alt="Image about">
+        <img src="imgs/logo.png" alt="Image about">
     </section>
+    
+    <!--SOBRE NÓS-->
     <main>
-        <article aria-label="seção sobre mim" class="sobre">
+        <article aria-label="seção sobre" class="sobre" id="about">
             <div class="sobre_titulo">
-                <h1>About</h1> <!--About me-->
-                <p>A little about Cyber Company Solutions</p><!--Professional Profile - There is All About me-->
+                <h1>About</h1> 
+                <p>A little about Cyber Company Solutions</p>
                 <div aria-label="Seção apenas de ilustrações de botões">
-                    <span></span>
+                       <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
-            <img src="imgs/team.jpg" alt="imagem de uma pessoa ilustrativa">
+            <img src="imgs/team.jpg" alt="imagem ilustrando time">
             <div class="sobre_conteudo">
                 <div class="sobre_texto">
                     <h1> Cyber Security Company</h1>
@@ -80,27 +73,21 @@
                         - Cybersecurity training for company employees: We help create a cybersecurity 
                         culture in the company, empowering employees to identify and report cyber threats.
                         <br>
-                        <!--Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni error possimus, provident vel,
-                        accusantium eligendi delectus officia dolore repellat neque modi eaque illo debitis reiciendis!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni error possimus, provident vel,
-                        accusantium eligendi delectus officia dolore repellat neque modi eaque illo debitis reiciendis!-->
-                        <br>
                         Contact us today to learn more about how we can help you improve your company's cybersecurity.
                     </p>
                 </div>
                 <div class="sobre_info">
                     <p><i class="fa-solid fa-calendar-days"></i>Created in: 20 octuber 2023</p>
-                  <!--  <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Freelance: Available</p>-->
                     <p><i class="fa-solid fa-location-dot"></i>Address: Lagoa da Prata, Minas Gerais, Brazil</p>
-                  <!-- <p><i class="fa-sharp fa-solid fa-globe"></i>Spoken Langages: Brazil, Espanõl, English</p>-->
                     <p><i class="fa-solid fa-flag"></i>Nationality: Brazil</p>
-                  <!--<p><i class="fa-solid fa-phone-volume"></i>Phone: +55 37 9999-9999</p>-->
                     <p><i class="fa-solid fa-envelope"></i>Email: cybercompanysec@hotmail.com</p>
                 </div>
             </div>
         </article>
     </main>
-    <section class="services">
+    
+    <!--SERVIÇOS-->
+    <section class="services" id="services">
         <div class="sobre_titulo">
             <h1>Services</h1>
             <p>About our services</p>
@@ -149,43 +136,13 @@
                     <p>Cybersecurity is an integral part of organizational culture and by making CTF training and competitions part of 
                         everyday life, the awareness and responsibility of all employees in protecting the company's digital assets is 
                         strengthened.</p>
-                    <!--<li>
-                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-globe"></i>
-                    <h3>Web Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-camera"></i>
-                    <h3>Photography</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-layer-group"></i>
-                    <h3>SEO Analyst</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-medal"></i>
-                    <h3>Creative Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>
-                <li>
-                    <i class="fa-sharp fa-solid fa-palette"></i>
-                    <h3>UX/UI</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, earum.</p>
-                </li>-->
                 </li>
             </ul>
         </div>
     </section>
     
     <!--COMUNIDADE-->
-    <section class="my_resume">
+    <section class="my_resume" id="community">
         <div class="sobre_titulo">
             <h1>Community</h1>
             <p>Cybersecurity Communities, visit right now: </p>
@@ -208,14 +165,7 @@
         <button class="ac-butt" id="ac-butt"><a href="https://github.com/SecurityTalent">Security Talent</a></button>
         <button class="ac-butt" id="ac-butt"><a href="https://www.reddit.com/r/cybersecurity/">Cyber Security</a></button>
         <button class="ac-butt" id="ac-butt"><a href="https://www.reddit.com/r/CyberSecurityAdvice/">Cyber Security Advice</a></button>
-       <!-- <p>Este  é um texto logo abaixo das imagens fora div.</p>
-        <p>Este é um texto logo abaixo das imagens fora div.</p>
-        <p>Este é um texto logo abaixo das imagens fora div.</p>
-        <p>Este é um texto logo abaixo das imagens fora div.</p>-->
-        </div>
     </section>
-    
-    
 
     <!--Empresas parceiras-->
     <section class="projects">
@@ -236,23 +186,10 @@
                 <li class="website">Websites</li>
             </ul>
         </div>
-        <div class="projects_armazenamento">
-            <ul aria-label="Navegação de projetos e websites">
-                <li id="design"><img src="imgs/ecommerce.jpeg" alt="Site criado para ser um ecommerce geral"></li>
-                <li id="design"><img src="imgs/facebook.jpeg" alt="Clone da tela de login do facebook"></li>
-                <li id="graphic"><img src="imgs/instagram.jpeg" alt="Clone da tela de login do instagram"></li>
-                <li id="graphic"><img src="imgs/iphone.jpeg" alt="Landing page da Apple"></li>
-                <li id="website"><img src="imgs/leagueoflegends.jpeg" alt="Tela de cadastro de League of legends">
-                </li>
-                <li id="website"><img src="imgs/marioword.jpeg" alt="Landing Page do filme Mario Word"></li>
-                <li id="website"><img src="imgs/netflix.jpeg" alt="Clone da Netflix"></li>
-                <li id="website"><img src="imgs/sonic.jpeg" alt="Landing Page do filme Sonic"></li>
-            </ul>
-        </div>
         <a href="#">Read More</a>
     </section>
-
-    <footer>
+    <!--NOSSO TIME-->
+    <footer id="contact">
         <div class="sobre_titulo">
             <h1>Our team</h1>
             <p>This page was created for educational purposes. It is an Anima Hub cybersecurity project,<br>
@@ -265,12 +202,6 @@
                <a href="https://www.instagram.com/rodrigc0/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="imgs/rodrigo.jpg" alt="Imagem 3" width="120px" height="120px"></a> 
                <a href="https://www.instagram.com/whaliaj/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="imgs/ju.png" alt="Imagem 3" width="120px" height="120px"></a>
                <a href="https://www.instagram.com/vanessasilveira61/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="imgs/vanessa.png" alt="Imagem 4" width="120px" height="120px"></a>
-     
-               <!--<li><i class="fa-brands fa-facebook-f"><a href="#"></a></i></li>
-                <li><i class="fa-brands fa-twitter"><a href="#"></a></i><a href="#"></a></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-                <li><i class="fa-brands fa-instagram"><a href="#"></a></i></li>
-                <li><i class="fa-brands fa-github-alt"><a href="#"></a></i></li>-->    
             </ul>
             <div class="nomes">
             <p>Luiz</p>
@@ -278,11 +209,6 @@
             <p>Rodrigo</p>
             <p>Júlia</p>
             <p>Vanessa</p>
-            <!--<p class="nomes">Luiz</p>
-            <p class="nomes">Caio</p>
-            <p class="nomes">Rodrigo</p>
-            <p class="nomes">Julia</p>
-            <p class="nomes">Vanessa</p>-->
             </div>
         </nav>
         <p class="footer_comercial">All rights reserved Cyber Company Security &copy; - 2023</p>
